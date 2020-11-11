@@ -10,7 +10,7 @@
 
       <!--导航-->
       <template slot="start">
-        <b-navbar-item href="#"> 技术文章 </b-navbar-item>
+        <b-navbar-item :to="{ path: 'article' }"> 技术文章 </b-navbar-item>
         <b-navbar-item href="#"> IDE软件 </b-navbar-item>
         <b-navbar-item href="#"> 二维码美化 </b-navbar-item>
         <b-navbar-item href="#"> 天气查询 </b-navbar-item>
