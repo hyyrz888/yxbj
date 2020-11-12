@@ -1,5 +1,5 @@
 <template>
-  <div class="column">
+  <div class="column is-4">
     <div class="card">
       <header class="card-header">
         <strong class="card-header-title has-text-grey text-align">
@@ -33,7 +33,17 @@ export default {
 
 <style lang="less">
 .card-content {
-  font-size: 13px;
+  padding: 1rem;
+  span {
+    margin-bottom: 10px;
+  }
+
+  p {
+    font-size: 13px;
+    height: 40px;
+    line-height: 20px;
+    overflow: hidden;
+  }
 }
 .card-footer-item {
   background-color: #f5f5f5;

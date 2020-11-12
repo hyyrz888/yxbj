@@ -22,27 +22,17 @@
 <script>
 import Card from "~/components/Card";
 export default {
-  name: "build",
+  name: "webfonts",
   data() {
     return {
       items: [
         {
-          desc: "JavaScript 模板引擎",
-          home: "http://ejs.co/",
-          logo: "",
-          name: "EJS",
-        },
-        {
-          desc: "JavaScript 模板引擎",
-          home: "https://pugjs.org/",
-          logo: "",
-          name: "Pug",
-        },
-        {
-          desc: "JavaScript 模板引擎",
-          home: "https://handlebarsjs.com/",
-          logo: "",
-          name: "Handlebars.js",
+          contribute: "https://github.com/Templarian/MaterialDesign-Webfont",
+          desc: "Icon图标中文搜索助手",
+          home: "https://iconhelper.cn/",
+          is_evernote: true,
+          logo: "block-helper",
+          name: "Icon助手",
         },
       ],
     };

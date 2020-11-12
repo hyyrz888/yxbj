@@ -11,12 +11,14 @@
 
       <!--导航-->
       <template slot="start">
-        <b-navbar-item :to="{ path: 'article' }"> 技术文章 </b-navbar-item>
+        <b-navbar-item href="article"> 技术文章 </b-navbar-item>
+        <b-navbar-item href="weekly"> Weekly </b-navbar-item>
         <b-navbar-item href="#"> IDE软件 </b-navbar-item>
         <b-navbar-item href="#"> 二维码美化 </b-navbar-item>
         <b-navbar-item href="#"> 天气查询 </b-navbar-item>
         <b-navbar-item href="#"> 快递查询 </b-navbar-item>
-        <b-navbar-item>Webfonts</b-navbar-item>
+        <b-navbar-item href="/webfonts">Webfonts</b-navbar-item>
+        <b-navbar-item href="joblife"> 我的职业生涯 </b-navbar-item>
       </template>
 
       <template slot="end">
@@ -27,24 +29,26 @@
         </b-navbar-item>
       </template>
     </b-navbar>
+
     <div class="container is-fluid">
       <section class="main-content columns">
         <aside class="column is-2 section">
-          <b-sidebar type="is-light" position="static" open>
-            <div class="block pt-4 pl-2"><strong>网站导航</strong></div>
-            <b-menu class="is-custom-mobile">
-              <b-menu-list>
-                <b-menu-item
-                  tag="nuxt-link"
-                  :label="item.title"
-                  v-for="(item, key) of items"
-                  :key="key"
-                  :active="currentIndex === key"
-                  :to="item.to.name"
-                ></b-menu-item>
-              </b-menu-list>
-            </b-menu>
-          </b-sidebar>
+          <div class="block pt-4 pb-4 pl-3 mb-0 bg-primary">
+            <strong class="text-white">网站导航</strong>
+          </div>
+          <b-menu class="is-custom-mobile">
+            <b-menu-list>
+              <b-menu-item
+                tag="nuxt-link"
+                :label="item.title"
+                v-for="(item, key) of items"
+                :key="key"
+                :active="currentIndex === key"
+                :to="item.to.name"
+              ></b-menu-item>
+            </b-menu-list>
+          </b-menu>
+
           <!-- <p class="menu-label is-hidden-touch">网站导航</p>
           <ul class="menu-list">
             <li></li>
@@ -69,22 +73,10 @@
           </div>
         </div>
       </section>
-
-      <footer class="footer">
-        <div class="content has-text-centered">
-          <p>
-            <strong>Bulma</strong> by
-            <a href="https://jgthms.com">Jeremy Thomas</a>. The source code is
-            licensed
-            <a href="http://opensource.org/licenses/mit-license.php">MIT</a>.
-            The website content is licensed
-            <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/"
-              >CC BY NC SA 4.0</a
-            >.
-          </p>
-        </div>
-      </footer>
     </div>
+    <footer class="footer pb-6">
+      <div class="content has-text-centered"><p>版权声明</p></div>
+    </footer>
   </div>
 </template>
 
@@ -101,7 +93,7 @@ export default {
         },
         {
           title: "小程序框架",
-          to: { name: "xcx" },
+          to: { name: "mini-program" },
         },
         {
           title: "React(PC)",
@@ -133,7 +125,7 @@ export default {
         },
         {
           title: "语言文档和规范",
-          to: { name: "wdyy" },
+          to: { name: "standard" },
         },
         {
           title: "代码风格检查",
@@ -157,7 +149,7 @@ export default {
         },
         {
           title: "编译构建",
-          to: { name: "pack" },
+          to: { name: "build" },
         },
         {
           title: "模板引擎",
@@ -175,10 +167,6 @@ export default {
           title: "其他工具",
           to: { name: "other" },
         },
-        {
-          title: "技术周刊",
-          to: { name: "technogy" },
-        },
       ],
     };
   },
@@ -193,10 +181,30 @@ export default {
 
 
 <style lang="less" scoped>
-.menu-list a {
-  font-size: 14px;
-  &.is-active {
-    background-color: #167df0;
+.b-sidebar .sidebar-content {
+  width: 100%;
+}
+</style>
+<style lang="less">
+.menu {
+  background-color: #f5f5f5;
+  .menu-list a {
+    font-size: 14px;
+    padding: 0.8rem;
+    &.is-active {
+      background-color: #f5f5f5;
+      color: #444;
+    }
+  }
+}
+
+.footer {
+  background-color: #444;
+  p {
+    color: #fff;
+    a {
+      color: #fff;
+    }
   }
 }
 </style>

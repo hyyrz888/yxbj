@@ -1,22 +1,20 @@
 <template>
   <section class="section">
     <div class="columns is-multiline">
-      <div class="column is-3" v-for="(item, key) of items" :key="key">
-        <card :title="item.title">
-          <div slot="content">
-            <b-icon :icon="item.icon" size="is-large" type="is-info" />
-            <p>{{ item.des }}</p>
-          </div>
-          <div slot="footer">
-            <a :href="item.home.url"
-              ><b-icon :icon="item.home.icon" type="is-dark"
-            /></a>
-            <a :href="item.github.url">
-              <b-icon :icon="item.github.icon" type="is-dark"
-            /></a>
-          </div>
-        </card>
-      </div>
+      <card :title="item.title" v-for="(item, key) of items" :key="key">
+        <div slot="content">
+          <b-icon :icon="item.icon" size="is-large" type="is-info" />
+          <p>{{ item.des }}</p>
+        </div>
+        <div slot="footer">
+          <a :href="item.home.url"
+            ><b-icon :icon="item.home.icon" type="is-dark"
+          /></a>
+          <a :href="item.github.url">
+            <b-icon :icon="item.github.icon" type="is-dark"
+          /></a>
+        </div>
+      </card>
     </div>
   </section>
 </template>
