@@ -2,24 +2,18 @@
   <div class="column">
     <div class="card">
       <header class="card-header">
-        <p class="card-header-title has-text-grey">
+        <strong class="card-header-title has-text-grey text-align">
           {{ title }}
-        </p>
+        </strong>
       </header>
       <div class="card-content">
         <div class="content has-text-centered">
-          <b-icon
-            :icon="icon"
-            size="is-large"
-            type="is-primary"
-          />
+          <slot name="content" />
         </div>
       </div>
       <footer class="card-footer">
         <div class="card-footer-item">
-          <span>
-            <slot />
-          </span>
+          <slot name="footer" />
         </div>
       </footer>
     </div>
@@ -31,12 +25,18 @@ export default {
   props: {
     title: {
       type: String,
-      required: true
+      required: true,
     },
-    icon: {
-      type: String,
-      required: true
-    }
-  }
-}
+  },
+};
 </script>
+
+<style lang="less">
+.card-content {
+  font-size: 13px;
+}
+.card-footer-item {
+  background-color: #f5f5f5;
+  padding: 4px;
+}
+</style>
