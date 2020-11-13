@@ -2,9 +2,14 @@
   <div class="column is-4">
     <div class="card">
       <header class="card-header">
-        <strong class="card-header-title has-text-grey text-align">
-          {{ title }}
-        </strong>
+        <strong class="card-header-title has-text-grey text-align text-primary">
+          {{ title }}</strong
+        >
+        <div v-if="team !== undefined" class="flex align-center mr-3">
+          <b-tag type="is-danger is-light" class="float-right">{{
+            team
+          }}</b-tag>
+        </div>
       </header>
       <div class="card-content">
         <div class="content has-text-centered">
@@ -27,6 +32,10 @@ export default {
       type: String,
       required: true,
     },
+    team: {
+      type: String,
+      required: false,
+    },
   },
 };
 </script>
@@ -40,8 +49,8 @@ export default {
 
   p {
     font-size: 13px;
-    height: 40px;
-    line-height: 20px;
+    height: 44px;
+    line-height: 22px;
     overflow: hidden;
   }
 }

@@ -16,11 +16,13 @@ export default {
   // Global CSS 
   css: [
     //less
-    '@/assets/css/reset.less'
+    '@/assets/css/reset.less',
+    '@fortawesome/fontawesome-svg-core/styles.css'
   ],
 
   // Plugins to run before rendering page 
   plugins: [
+    '~/plugins/fontawsome.js',
   ],
 
   // Auto import components 
@@ -34,10 +36,26 @@ export default {
   modules: [
     // https://go.nuxtjs.dev/buefy
     // Or you can customize
+    '@nuxtjs/axios',
     ['nuxt-buefy', { css: true, materialDesignIcons: false }],
   ],
 
   // Build Configuration 
   build: {
-  }
+  },
+  axios: {
+    proxy: true,
+    prefix: '/api/',
+    credentials: true
+    // See https://github.com/nuxt-community/axios-module#options
+  },
+  proxy: {
+    '/api/': {
+      target: 'https://api.jisuapi.com',//这个网站是开源的可以请求到数据的
+      pathRewrite: {
+        '^/api/': '/',
+        changeOrigin: true
+      }
+    }
+  },
 }

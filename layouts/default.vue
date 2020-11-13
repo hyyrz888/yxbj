@@ -11,13 +11,14 @@
 
       <!--导航-->
       <template slot="start">
+        <b-navbar-item href="/"> 首页 </b-navbar-item>
         <b-navbar-item href="article"> 技术文章 </b-navbar-item>
         <b-navbar-item href="weekly"> Weekly </b-navbar-item>
         <b-navbar-item href="#"> IDE软件 </b-navbar-item>
         <b-navbar-item href="#"> 二维码美化 </b-navbar-item>
-        <b-navbar-item href="#"> 天气查询 </b-navbar-item>
-        <b-navbar-item href="#"> 快递查询 </b-navbar-item>
         <b-navbar-item href="/webfonts">Webfonts</b-navbar-item>
+        <b-navbar-item href="#"> 程序员工具 </b-navbar-item>
+        <b-navbar-item href="people"> 便民查询 </b-navbar-item>
         <b-navbar-item href="joblife"> 我的职业生涯 </b-navbar-item>
       </template>
 
@@ -94,26 +95,6 @@ export default {
         {
           title: "小程序框架",
           to: { name: "mini-program" },
-        },
-        {
-          title: "React(PC)",
-          to: { name: "reactpc" },
-        },
-        {
-          title: "React(Mobile)",
-          to: { name: "reactwap" },
-        },
-        {
-          title: "Vue(PC)",
-          to: { name: "vuepc" },
-        },
-        {
-          title: "Vue(Mobile)",
-          to: { name: "vuewap" },
-        },
-        {
-          title: "Angular",
-          to: { name: "angular" },
         },
         {
           title: "Node.js",

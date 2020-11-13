@@ -1,0 +1,1140 @@
+{
+  "requestId": "0550446a30e29",
+  "data": {
+    "offset": 0,
+    "limit": 100,
+    "list": [
+      {
+        "_id": "c497f5885f9e324e0118d56873ba5666",
+        "label": "前端框架",
+        "list": [
+          {
+            "contribute": "https://github.com/reactjs/zh-hans.reactjs.org",
+            "desc": "用于构建用户界面的 JavaScript 库",
+            "home": "https://react.docschina.org",
+            "is_docschina": true,
+            "logo": "https://cdn.docschina.org/home/logo/react.svg",
+            "name": "React"
+          },
+          {
+            "contribute": "https://github.com/vuejs/cn.vuejs.org/",
+            "desc": "渐进式 JavaScript 库",
+            "home": "https://vue.docschina.org",
+            "logo": "https://cdn.docschina.org/home/logo/vue.svg",
+            "name": "Vue"
+          },
+          {
+            "desc": "一套框架多种平台",
+            "home": "https://angular.cn/",
+            "logo": "https://cdn.docschina.org/home/logo/angular.svg",
+            "name": "Angular"
+          }
+        ],
+        "name": "fe"
+      },
+      {
+        "_id": "c497f5885f9e324e0118d5691d88abc2",
+        "label": "小程序框架",
+        "list": [
+          {
+            "contribute": "https://github.com/remaxjs/remax",
+            "desc": "Remax 将 React 运行在小程序环境中，让你可以使用完整的 React 进行小程序开发。",
+            "home": "https://remaxjs.org/",
+            "logo": "https://gw.alipayobjects.com/mdn/rms_b5fcc5/afts/img/A*1NHAQYduQiQAAAAAAAAAAABkARQnAQ",
+            "name": "Remax"
+          },
+          {
+            "contribute": "https://github.com/NervJS/taro",
+            "desc": "Taro 是一套遵循 React 语法规范的 多端开发 解决方案。",
+            "home": "https://taro.jd.com/",
+            "logo": "https://cdn.docschina.org/home/logo/taro.png",
+            "name": "Taro"
+          },
+          {
+            "contribute": "https://github.com/wechat-miniprogram/kbone",
+            "desc": "kbone 用于支持一个项目可以同时在 Web 端和小程序端被使用",
+            "home": "https://developers.weixin.qq.com/miniprogram/dev/extended/kbone/",
+            "logo": "",
+            "name": "kbone"
+          },
+          {
+            "contribute": "https://github.com/Tencent/omi",
+            "desc": "Omi 可以开发桌面 Web、移动 H5，同时支持开发小程序",
+            "home": "http://omijs.org",
+            "logo": "https://camo.githubusercontent.com/5a3ce051411cca4d8abd0e0abff879bb5a871520/68747470733a2f2f74656e63656e742e6769746875622e696f2f6f6d692f6173736574732f6f6d692d6c6f676f323031392e737667",
+            "name": "omi/omip"
+          },
+          {
+            "contribute": "https://github.com/Tencent/wepy",
+            "desc": "WePY 是一款让小程序支持组件化开发的框架，通过预编译的手段让开发者可以选择自己喜欢的开发风格去开发小程序",
+            "home": "https://developers.weixin.qq.com/miniprogram/dev/extended/kbone/",
+            "logo": "https://opensource.tencent.com/img/wepy.png",
+            "name": "wepy"
+          },
+          {
+            "contribute": "https://github.com/RubyLouvre/nanachi",
+            "desc": "基于 React 的多端小程序转译框架，完美兼容 React 生命周期",
+            "home": "https://rubylouvre.github.io/nanachi/",
+            "logo": "https://cdn.docschina.org/home/logo/nanachi.png",
+            "name": "nanachi"
+          },
+          {
+            "contribute": "https://github.com/Meituan-Dianping/mpvue",
+            "desc": "框架基于 Vue.js 核心，mpvue 修改了 Vue.js 的 runtime 和 compiler 实现，使其可以运行在小程序环境中，从而为小程序开发引入了整套 Vue.js 开发体验。",
+            "home": "http://mpvue.com",
+            "logo": "https://cdn.docschina.org/home/logo/mpvue.png",
+            "name": "mpvue"
+          },
+          {
+            "contribute": "https://github.com/wxajs/wxa",
+            "desc": "wxa 是一个 AOP 框架，主要使用 Decorator（运行时改写，拦截）和预编译实现框架功能。",
+            "home": "https://wxajs.github.io/wxa/",
+            "logo": "https://github.com/wxajs/wxa/raw/dev/wxa-logo.png",
+            "name": "wxa"
+          },
+          {
+            "contribute": "https://github.com/didi/mpx",
+            "desc": "Mpx 是一款致力于提高小程序开发体验的增强型小程序框架，通过 Mpx，我们能够以最先进的 web 开发体验来开发生产性能深度优化的小程序。",
+            "home": "https://didi.github.io/mpx/",
+            "logo": "https://cdn.docschina.org/home/logo/mpx-logo.png",
+            "name": "mpx"
+          },
+          {
+            "contribute": "https://github.com/kaola-fed/megalo",
+            "desc": "Megalo 是基于 Vue（Vue@2.6.6） 的小程序开发框架，让开发者可以用 Vue 的开发方式开发小程序应用。",
+            "home": "https://megalojs.org/#/",
+            "logo": "https://megalojs.org/static/megalo.png",
+            "name": "megalo"
+          },
+          {
+            "contribute": "https://github.com/didi/chameleon",
+            "desc": "Chameleon/kəˈmiːlɪən/，简写CML，中文名卡梅龙；中文意思变色龙，意味着就像变色龙一样能适应不同环境的跨端整体解决方案。",
+            "home": "https://cml.js.org/",
+            "logo": "https://camo.githubusercontent.com/9a6e165b9188a8ac4e5173bc382688a418fad711/68747470733a2f2f636d6c2e6a732e6f72672f646f632f6173736574732f3130302a3130302e706e67",
+            "name": "chameleon"
+          },
+          {
+            "contribute": "https://github.com/dcloudio/uni-app",
+            "desc": "框架基于 Vue.js 核心，mpvue 修改了 Vue.js 的 runtime 和 compiler 实现，使其可以运行在小程序环境中，从而为小程序开发引入了整套 Vue.js 开发体验。",
+            "home": "https://uniapp.dcloud.io/",
+            "logo": "https://img-cdn-qiniu.dcloud.net.cn/new-page/uni.png",
+            "name": "uni-app"
+          }
+        ],
+        "name": "mini-program"
+      },
+      {
+        "_id": "c497f5885f9e324e0118d56a6fb97586",
+        "label": "React(PC)",
+        "list": [
+          {
+            "contribute": "https://github.com/docschina/preact-www",
+            "desc": "React 的 3kb 轻量化方案，拥有同样的 ES6 API",
+            "home": "https://preactjs.com/",
+            "is_docschina": true,
+            "logo": "https://cdn.docschina.org/home/logo/preact.png",
+            "name": "Preact"
+          },
+          {
+            "contribute": "https://github.com/docschina/react-router.cn",
+            "desc": "官方维护的路由库",
+            "home": "https://react-router.docschina.org/",
+            "is_docschina": true,
+            "logo": "https://cdn.docschina.org/home/logo/react-router.svg",
+            "name": "React-Router"
+          },
+          {
+            "contribute": "https://github.com/umijs/umi",
+            "desc": "可插拔的企业级 React 应用框架",
+            "home": "https://umijs.org/",
+            "logo": "",
+            "name": "Umi"
+          },
+          {
+            "contribute": "https://github.com/dvajs/dva",
+            "desc": "基于 React 和 redux，具有 elm 风格的轻量级框架。",
+            "home": "https://dvajs.com/",
+            "logo": "",
+            "name": "dva"
+          },
+          {
+            "desc": "企业级的 UI 设计语言和 React 实现",
+            "home": "https://ant.design/",
+            "logo": "https://cdn.docschina.org/home/logo/antdesign.svg",
+            "name": "Ant Design",
+            "repository": "https://github.com/ant-design/ant-design",
+            "team": "阿里巴巴"
+          },
+          {
+            "desc": "开箱即用的中台前端/设计解决方案",
+            "home": "https://pro.ant.design/",
+            "logo": "https://cdn.docschina.org/home/logo/antdesign.svg",
+            "name": "Ant Design Pro",
+            "repository": "https://github.com/ant-design/ant-design-pro",
+            "team": "阿里巴巴"
+          },
+          {
+            "desc": "Element UI 的 React 实现",
+            "home": "https://elemefe.github.io/element-react/",
+            "logo": "https://cdn.docschina.org/home/logo/element.svg",
+            "name": "Element React",
+            "repository": "https://github.com/eleme/element-react",
+            "team": "饿了么"
+          },
+          {
+            "desc": "PC 端 WebUI 规范的 React 实现，提供了一整套基础的 UI 组件以及一些常用的业务组件",
+            "home": "https://youzan.github.io/zent/zh/guides/install",
+            "logo": "https://cdn.docschina.org/home/logo/zent.png",
+            "name": "Zent",
+            "repository": "https://github.com/youzan/zent",
+            "team": "有赞"
+          },
+          {
+            "desc": "Nerv 是一款基于虚拟 DOM 技术的 JavaScript（TypeScript）库，它提供了与 React 16 一致的使用方式与 API，并且拥有更高的性能表现、更小的包大小以及更好的浏览器兼容性",
+            "home": "https://nerv.aotu.io/",
+            "logo": "https://camo.githubusercontent.com/3e1b76e514b895760055987f164ce6c95935a3aa/687474703a2f2f73746f726167652e333630627579696d672e636f6d2f6d74642f686f6d652f6c6f676f2d3278313531333833373932363730372e706e67",
+            "name": "Nerv",
+            "repository": "https://github.com/NervJS/nerv",
+            "team": "京东"
+          }
+        ],
+        "name": "react-pc"
+      },
+      {
+        "_id": "c497f5885f9e324e0118d56b34499360",
+        "label": "React(Mobile)",
+        "list": [
+          {
+            "desc": "基于 React 的移动端跨平台 UI",
+            "home": "https://reactnative.cn/",
+            "logo": "https://cdn.docschina.org/home/logo/react.svg",
+            "name": "React Native",
+            "repository": "https://github.com/reactnativecn/react-native.cn"
+          },
+          {
+            "desc": "一个基于 Preact / React / React Native 的 UI 组件库",
+            "home": "https://mobile.ant.design/",
+            "logo": "https://cdn.docschina.org/home/logo/antdesign.svg",
+            "name": "Ant Design Mobile",
+            "repository": "https://github.com/ant-design/ant-design-mobile",
+            "team": "阿里巴巴"
+          },
+          {
+            "desc": "移动端 React 组件库",
+            "home": "https://didi.github.io/pile.js",
+            "logo": "",
+            "name": "Pile",
+            "repository": "https://github.com/didi/pile.js",
+            "team": "滴滴"
+          },
+          {
+            "desc": "移动端 React 组件库",
+            "home": "https://zarm.gitee.io/#/components/quick-start",
+            "logo": "https://zarm.gitee.io/images/logo.732d9561.svg",
+            "name": "Zarm React",
+            "repository": "https://github.com/ZhongAnTech/zarm",
+            "team": "众安科技"
+          }
+        ],
+        "name": "react-mobile"
+      },
+      {
+        "_id": "c497f5885f9e324e0118d56c79303c20",
+        "label": "Vue(PC)",
+        "list": [
+          {
+            "desc": "基于 Vue 的组件库",
+            "home": "http://element-cn.eleme.io/",
+            "logo": "https://cdn.docschina.org/home/logo/element.svg",
+            "name": "Element UI",
+            "repository": "https://github.com/ElemeFE/element",
+            "team": "饿了么"
+          },
+          {
+            "desc": "开箱即用的中台前端/设计解决方案",
+            "home": "https://pro.antdv.com/",
+            "logo": "https://pro.antdv.com/logo.png",
+            "name": "Ant Design Pro",
+            "repository": "https://github.com/vueComponent/ant-design-vue-pro",
+            "team": "阿里巴巴"
+          },
+          {
+            "desc": "基于 Vue 的组件库",
+            "home": "https://www.iviewui.com/",
+            "logo": "https://cdn.docschina.org/home/logo/iview.png",
+            "name": "View UI",
+            "repository": "https://github.com/iview/iview",
+            "team": "TalkingData"
+          },
+          {
+            "desc": "Vue 官方 UI 组件",
+            "home": "https://vuejs.github.io/ui/",
+            "logo": "https://cdn.docschina.org/home/logo/vue.svg",
+            "name": "Vue UI Framework",
+            "repository": "https://github.com/vuejs/ui"
+          },
+          {
+            "desc": "基于 Vue 的 Material 组件库",
+            "home": "https://vuetifyjs.com/zh-Hans/",
+            "logo": "https://cdn.docschina.org/home/logo/vuetify.svg",
+            "name": "Vuetify",
+            "repository": "https://github.com/vuetifyjs/vuetify"
+          },
+          {
+            "desc": "基于 Vue 和 Material Design 的 UI 组件库",
+            "home": "http://www.muse-ui.org/",
+            "logo": "https://cdn.docschina.org/home/logo/muse.png",
+            "name": "Muse-UI",
+            "repository": "https://github.com/museui/muse-ui"
+          },
+          {
+            "desc": "一个基于 Vue 的高质量 UI 组件库",
+            "home": "https://www.heyui.top/",
+            "logo": "https://camo.githubusercontent.com/1424cb86c2634f96fe82db55f01f07c3c29e53a1/68747470733a2f2f7777772e68657975692e746f702f7374617469632f696d616765732f6c6f676f2e706e67",
+            "name": "HeyUI",
+            "repository": "https://github.com/heyui/heyui"
+          },
+          {
+            "desc": "灵活易用的 JavaScript 组件框架，兼容到 IE6",
+            "home": "https://baidu.github.io/san/",
+            "logo": "https://cdn.docschina.org/home/logo/san.svg",
+            "name": "San",
+            "repository": "https://github.com/baidu/san",
+            "team": "百度"
+          },
+          {
+            "desc": "Vue 官方提供的服务器端渲染(SSR)指南",
+            "home": "https://ssr.vuejs.org/zh/",
+            "logo": "",
+            "name": "vue-ssr",
+            "repository": "https://github.com/vuejs/vue-ssr-docs"
+          },
+          {
+            "desc": "vue-loader 可以将 Vue 单文件组件转换为 JavaScript 模块的 webpack loader",
+            "home": "https://vue-loader.vuejs.org/zh/",
+            "logo": "",
+            "name": "vue-loader",
+            "repository": "https://github.com/vuejs/vue-loader"
+          },
+          {
+            "contribute": "https://github.com/vuejs/vuepress",
+            "desc": "由 Vue 提供支持的静态站点生成器",
+            "home": "https://vuepress.vuejs.org/zh/",
+            "logo": "https://cdn.docschina.org/home/logo/vuepress.svg",
+            "name": "VuePress"
+          },
+          {
+            "desc": "vue-router 是 Vue 官方提供的 router",
+            "home": "https://router.vuejs.org/zh/",
+            "logo": "",
+            "name": "vue-router",
+            "repository": "https://github.com/vuejs/vue-router"
+          },
+          {
+            "desc": "vue-rx 帮助用户在 Vue 应用程序中实现简单的 RxJS 绑定",
+            "home": "https://github.com/vuejs/vue-rx/blob/master/README-CN.md",
+            "logo": "",
+            "name": "vue-rx",
+            "repository": "https://github.com/vuejs/vue-rx"
+          },
+          {
+            "desc": "vue-cli 帮助用户快速开发 Vue 的脚手架(scaffold)",
+            "home": "https://cli.vuejs.org/zh/",
+            "logo": "https://cdn.docschina.org/home/logo/vue.svg",
+            "name": "vue-cli",
+            "repository": "https://github.com/vuejs/vue-cli"
+          },
+          {
+            "desc": "Vue.js 元框架，用于快速创建复杂、高性能的通用 Web 应用程序",
+            "home": "https://zh.nuxtjs.org/",
+            "logo": "https://zh.nuxtjs.org/logos/nuxt-icon.png",
+            "name": "Nuxt.js",
+            "repository": "https://github.com/nuxt/nuxt.js"
+          }
+        ],
+        "name": "vue-pc"
+      },
+      {
+        "_id": "c497f5885f9e324e0118d56d1789876d",
+        "label": "Vue(Mobile)",
+        "list": [
+          {
+            "desc": "移动端 Vue 组件库",
+            "home": "https://youzan.github.io/vant/",
+            "logo": "https://cdn.docschina.org/home/logo/vant.png",
+            "name": "Vant",
+            "repository": "https://github.com/youzan/vant",
+            "team": "有赞"
+          },
+          {
+            "desc": "基于 Vue 实现的精致移动端组件库",
+            "home": "https://didi.github.io/cube-ui/",
+            "logo": "https://cdn.docschina.org/home/logo/cube.png",
+            "name": "Cube UI",
+            "repository": "https://github.com/didi/cube-ui",
+            "team": "滴滴"
+          },
+          {
+            "desc": "面向金融场景的 Vue 移动端组件库",
+            "home": "https://didi.github.io/mand-mobile/",
+            "logo": "https://cdn.docschina.org/home/logo/mand.svg",
+            "name": "Mand Mobile",
+            "repository": "https://github.com/didi/mand-mobile",
+            "team": "滴滴"
+          },
+          {
+            "desc": "可视化 Mand Mobile 主题编辑器",
+            "home": "https://mand-mobile.github.io/palette/",
+            "logo": "https://cdn.docschina.org/home/logo/mand.svg",
+            "name": "Mand Mobile Palette",
+            "repository": "https://github.com/mand-mobile/palette",
+            "team": "滴滴"
+          },
+          {
+            "desc": "基于 Vue 的 PWA 解决方案",
+            "home": "https://lavas.baidu.com/",
+            "logo": "https://cdn.docschina.org/home/logo/lavas.png",
+            "name": "Lavas",
+            "repository": "https://github.com/lavas-project/lavas",
+            "team": "百度"
+          },
+          {
+            "desc": "基于 Vue 的组件库",
+            "home": "http://mint-ui.github.io/",
+            "logo": "https://cdn.docschina.org/home/logo/mint.svg",
+            "name": "Mint UI",
+            "repository": "https://github.com/ElemeFE/mint-ui",
+            "team": "饿了么"
+          },
+          {
+            "desc": "基于 Vue 的移动端组件库",
+            "home": "https://vux.li/",
+            "logo": "https://cdn.docschina.org/home/logo/vux.png",
+            "name": "VUX",
+            "repository": "https://github.com/airyland/vux"
+          },
+          {
+            "desc": "基于 Vue 的移动端跨平台 UI",
+            "home": "https://weex.apache.org/",
+            "logo": "https://cdn.docschina.org/home/logo/weex.svg",
+            "name": "Weex",
+            "repository": "https://github.com/apache/incubator-weex",
+            "team": "阿里巴巴"
+          },
+          {
+            "desc": "移动端 Vue 组件库",
+            "home": "https://zhongantech.github.io/zarm-vue/#/documents/quick-start",
+            "logo": "https://zarm.gitee.io/images/logo.732d9561.svg",
+            "name": "Zarm Vue",
+            "repository": "https://github.com/ZhongAnTech/zarm",
+            "team": "众安科技"
+          }
+        ],
+        "name": "vue-mobile"
+      },
+      {
+        "_id": "c497f5885f9e324e0118d56e41e13c2b",
+        "label": "Angular",
+        "list": [
+          {
+            "desc": "Element UI 的 Angular 实现",
+            "home": "https://element-angular.faas.ele.me/",
+            "logo": "https://cdn.docschina.org/home/logo/element.svg",
+            "name": "Element Angular",
+            "repository": "https://github.com/ElemeFE/element-angular",
+            "team": "饿了么"
+          },
+          {
+            "desc": "基于 Angular 的移动端跨平台 UI",
+            "home": "https://ionicframework.com/",
+            "logo": "https://cdn.docschina.org/home/logo/ionic.png",
+            "name": "Ionic",
+            "repository": "https://github.com/ionic-team/ionic"
+          },
+          {
+            "desc": "Ant Design 的 Angular 实现",
+            "home": "https://ng.ant.design/",
+            "logo": "https://cdn.docschina.org/home/logo/NG-ZORRO.svg",
+            "name": "NG-ZORRO",
+            "repository": "https://github.com/NG-ZORRO/ng-zorro-antd"
+          },
+          {
+            "desc": "基于 ng-zorro-antd 的中台前端解决方案",
+            "home": "http://ng-alain.com/",
+            "logo": "https://cdn.docschina.org/home/logo/ng-alain.svg",
+            "name": "ng-alain",
+            "repository": "https://github.com/cipchk/ng-alain/"
+          }
+        ],
+        "name": "angular"
+      },
+      {
+        "_id": "c497f5885f9e324e0118d56f23ffeb15",
+        "label": "Node.js",
+        "list": [
+          {
+            "contribute": "https://github.com/demopark/koa-docs-Zh-CN",
+            "desc": "新一代的 Web 后台框架",
+            "home": "https://koajs.docschina.org/",
+            "is_docschina": true,
+            "logo": "https://cdn.docschina.org/home/logo/koa.svg",
+            "name": "Koa"
+          },
+          {
+            "desc": "为企业级框架和 Node.js & Koa 应用程序而生",
+            "home": "https://eggjs.org/",
+            "logo": "https://cdn.docschina.org/home/logo/egg.png",
+            "name": "egg",
+            "repository": "https://github.com/eggjs/egg",
+            "team": "阿里巴巴"
+          },
+          {
+            "desc": "快速极简的 Web 框架",
+            "home": "http://expressjs.com/zh-cn/",
+            "logo": "https://cdn.docschina.org/home/logo/express.png",
+            "name": "Express",
+            "repository": "https://github.com/expressjs/express"
+          },
+          {
+            "desc": "渐进式 Node.js 框架，构建高效、可靠和可扩展的 server 应用程序",
+            "home": "https://nestjs.com/",
+            "logo": "https://cdn.docschina.org/home/logo/nest.png",
+            "name": "nest",
+            "repository": "https://github.com/nestjs/nest"
+          },
+          {
+            "desc": "能够使用完整 ES6/7 特性进行开发的 Node.js 应用程序",
+            "home": "https://thinkjs.org/",
+            "logo": "https://cdn.docschina.org/home/logo/think.png",
+            "name": "ThinkJS",
+            "repository": "https://github.com/thinkjs/thinkjs",
+            "team": "360"
+          },
+          {
+            "desc": "npm 是 JavaScript package 管理工具，在这里可以找到可复用代码，并以强大的全新方式进行聚合",
+            "home": "https://docs.npmjs.com/",
+            "logo": "https://cdn.docschina.org/home/logo/npm.png",
+            "name": "npm"
+          },
+          {
+            "desc": "淘宝提供的 npmjs.org 镜像",
+            "home": "https://npm.taobao.org/",
+            "logo": "https://npm.taobao.org/favicon.png",
+            "name": "cnpm"
+          },
+          {
+            "desc": "快速、可靠和安全的依赖管理",
+            "home": "https://yarnpkg.com/zh-Hans/",
+            "logo": "https://cdn.docschina.org/home/logo/yarn.png",
+            "name": "yarn"
+          }
+        ],
+        "name": "node"
+      },
+      {
+        "_id": "c497f5885f9e324e0118d5706183e0bf",
+        "label": "CSS",
+        "list": [
+          {
+            "desc": "Sass 是 CSS 的一个扩展，它使 CSS 的使用起来更加优雅和强大。",
+            "home": "https://sass-guidelin.es/zh/",
+            "logo": "https://cdn.docschina.org/home/logo/sass.svg",
+            "name": "Sass"
+          },
+          {
+            "desc": "Less 是 CSS 预处理语言，使 CSS 更易维护和扩展",
+            "home": "http://lesscss.cn/",
+            "logo": "https://cdn.docschina.org/home/logo/less.svg",
+            "name": "Less"
+          },
+          {
+            "desc": "富有表现力、动态、健壮的 CSS",
+            "home": "http://www.zhangxinxu.com/jq/stylus/",
+            "homeBackup": "http://stylus-lang.com/",
+            "logo": "https://cdn.docschina.org/home/logo/stylus.svg",
+            "name": "Stylus"
+          },
+          {
+            "contribute": "https://github.com/docschina/postcss/blob/cn/Translation.md",
+            "desc": "通过 JavaScript 来转换 CSS，并且提供强大的插件系统",
+            "home": "http://postcss.docschina.org/",
+            "is_docschina": true,
+            "logo": "https://cdn.docschina.org/home/logo/postcss.svg",
+            "name": "PostCSS"
+          }
+        ],
+        "name": "css"
+      },
+      {
+        "_id": "c497f5885f9e324e0118d571682a770e",
+        "label": "语言文档和规范",
+        "list": [
+          {
+            "contribute": "https://github.com/nodejscn/node-api-cn",
+            "desc": "基于 V8 引擎的 JS 运行环境",
+            "home": "http://nodejs.cn/",
+            "is_docschina": true,
+            "logo": "https://cdn.docschina.org/home/logo/node.svg",
+            "name": "Node.js"
+          },
+          {
+            "desc": "提供 Web 技术文档，学习 Web 开发的最佳实践",
+            "home": "https://developer.mozilla.org/zh-CN/docs/Web",
+            "logo": "https://developer.mozilla.org/static/img/favicon144.e7e21ca263ca.png",
+            "name": "MDN"
+          },
+          {
+            "contribute": "https://github.com/docschina/ecma262",
+            "desc": "ECMAScript 2018 标准",
+            "home": "https://ecma262.docschina.org/",
+            "is_docschina": true,
+            "logo": "https://cdn.docschina.org/home/logo/ecma.svg",
+            "name": "ECMAScript"
+          },
+          {
+            "contribute": "https://github.com/xitu/graphql.github.io",
+            "desc": "一种用于 API 的查询语言",
+            "home": "http://graphql.cn/",
+            "logo": "https://cdn.docschina.org/home/logo/graphql.svg",
+            "name": "GraphQL"
+          },
+          {
+            "contribute": "https://github.com/OAI/OpenAPI-Specification/blob/master/versions/3.0.0.md",
+            "desc": "OpenAPI 规范为 RESTful API 定义了一个与语言无关的标准接口",
+            "home": "https://swagger.io/docs/specification/about/",
+            "logo": "https://cdn.docschina.org/home/logo/openapi.png",
+            "name": "OpenAPI"
+          },
+          {
+            "contribute": "https://github.com/json-schema-org/json-schema-spec",
+            "desc": "JSON Schema 是一个词汇表，可以验证、注释和操作 JSON 文档",
+            "home": "http://json-schema.org/",
+            "logo": "https://cdn.docschina.org/home/logo/json-schema.svg",
+            "name": "JSON Schema"
+          }
+        ],
+        "name": "standard"
+      },
+      {
+        "_id": "c497f5885f9e324e0118d5725620766a",
+        "label": "代码风格检查",
+        "list": [
+          {
+            "desc": "可组装的、用于 JavaScript 和 JSX 的代码检查工具",
+            "home": "https://cn.eslint.org/",
+            "logo": "https://cdn.docschina.org/home/logo/eslint.svg",
+            "name": "ESLint"
+          },
+          {
+            "contribute": "https://github.com/docschina/stylelint",
+            "desc": "强大的现代 CSS 检测工具，帮助样式表遵循一致的约定和避免错误",
+            "home": "https://stylelint.docschina.org/",
+            "is_docschina": true,
+            "logo": "https://cdn.docschina.org/home/logo/stylelint.svg",
+            "name": "StyleLint"
+          },
+          {
+            "desc": "JavaScript 风格指南、检查工具和格式化工具",
+            "home": "https://standardjs.com/",
+            "logo": "https://cdn.docschina.org/home/logo/standardjs.svg",
+            "name": "Standard JS"
+          },
+          {
+            "desc": "Vue 代码的风格指南",
+            "home": "https://vue.docschina.org/v2/style-guide/",
+            "logo": "https://cdn.docschina.org/home/logo/vue.svg",
+            "name": "Vue 风格指南"
+          }
+        ],
+        "name": "codestyle"
+      },
+      {
+        "_id": "c497f5885f9e324e0118d5733b66fd34",
+        "label": "状态管理",
+        "list": [
+          {
+            "contribute": "https://github.com/SangKa/mobx-docs-cn",
+            "desc": "简单、可扩展的状态管理",
+            "home": "https://cn.mobx.js.org/",
+            "is_docschina": true,
+            "logo": "https://cdn.docschina.org/home/logo/mobx.png",
+            "name": "Mobx"
+          },
+          {
+            "contribute": "https://github.com/camsong/redux-in-chinese",
+            "desc": "JavaScript 状态容器，提供可预测化的状态管理",
+            "home": "https://cn.redux.js.org/",
+            "logo": "https://cdn.docschina.org/home/logo/redux.svg",
+            "name": "Redux"
+          },
+          {
+            "contribute": "https://github.com/rematch/rematch",
+            "desc": "Rematch 是没有 boilerplate 的 Redux 最佳实践",
+            "home": "https://rematch.gitbook.io/",
+            "logo": "https://cdn.docschina.org/home/logo/rematch.png",
+            "name": "Rematch"
+          },
+          {
+            "desc": "vuex 是 Vue 官方提供的状态管理工具",
+            "home": "https://vuex.vuejs.org/zh/",
+            "logo": "https://cdn.docschina.org/home/logo/vue.svg",
+            "name": "Vuex",
+            "repository": "https://github.com/vuejs/vuex"
+          }
+        ],
+        "name": "data-model"
+      },
+      {
+        "_id": "c497f5885f9e324e0118d5741113911d",
+        "label": "编程教程",
+        "list": [
+          {
+            "contribute": "https://github.com/javascript-tutorial/zh.javascript.info",
+            "desc": "以最新的 JavaScript 标准为基准，通过简单但足够详细的内容，为你讲解从基础到高阶的 JavaScript 相关知识。",
+            "home": "https://zh.javascript.info/",
+            "is_docschina": false,
+            "logo": "https://user-images.githubusercontent.com/26959437/67275005-3df25500-f4f4-11e9-9c13-36e442ff40cc.jpg",
+            "name": "现代 JavaScript 教程"
+          },
+          {
+            "contribute": "https://github.com/RxJS-CN/learn-rxjs-operators",
+            "desc": "通过每个操作符的清晰示例及解释来进行 RxJS 的学习",
+            "home": "https://rxjs-cn.github.io/learn-rxjs-operators/",
+            "is_docschina": true,
+            "logo": "",
+            "name": "学习 RxJS 操作符"
+          },
+          {
+            "desc": "从 JavaScript 程序员的角度总结思考，循序渐进的理解 TypeScript",
+            "home": "https://ts.xcatliu.com/",
+            "logo": "https://cdn.docschina.org/home/logo/typescript.svg",
+            "name": "TypeScript 入门教程",
+            "repository": "https://github.com/xcatliu/typescript-tutorial"
+          },
+          {
+            "desc": "基于 Promise 进行异步编程的基本使用方法以及测试的编写方法、应用及反模式等内容的文档",
+            "home": "http://liubin.org/promises-book/",
+            "logo": "",
+            "name": "JavaScript Promise 迷你书"
+          },
+          {
+            "contribute": "https://github.com/RxJS-CN/learn-rxjs-operators",
+            "desc": "通过每个操作符的清晰示例及解释来进行 RxJS 的学习",
+            "home": "https://rxjs-cn.github.io/learn-rxjs-operators/",
+            "is_docschina": true,
+            "logo": "",
+            "name": "学习 RxJS 操作符"
+          }
+        ],
+        "name": "tutorial"
+      },
+      {
+        "_id": "c497f5885f9e324e0118d57508ba180c",
+        "label": "函数式编程",
+        "list": [
+          {
+            "contribute": "https://github.com/RxJS-CN/RxJS-Docs-CN/",
+            "desc": "RxJS 是 Reactive Extensions 的 JavaScript 实现，可以通过响应式和函数式编程模型组合异步数据流",
+            "home": "http://cn.rx.js.org/",
+            "is_docschina": true,
+            "logo": "https://cdn.docschina.org/home/logo/rxjs.png",
+            "name": "RxJS"
+          },
+          {
+            "desc": "函数式和响应式的 JavaScript 框架",
+            "home": "http://cyclejs.cn/",
+            "logo": "https://cdn.docschina.org/home/logo/cyclejs.svg",
+            "name": "Cycle.js"
+          },
+          {
+            "desc": "一款实用的 JavaScript 函数式编程库",
+            "home": "http://ramda.cn/",
+            "logo": "https://ramdajs.com/ramdaFilled_200x235.png",
+            "name": "Ramda"
+          }
+        ],
+        "name": "functional"
+      },
+      {
+        "_id": "c497f5885f9e324e0118d57622981fde",
+        "label": "测试工具",
+        "list": [
+          {
+            "desc": "Vue Test Utils 是 Vue.js 官方的单元测试实用工具库",
+            "home": "https://vue-test-utils.vuejs.org/zh/",
+            "logo": "",
+            "name": "Vue Test Utils",
+            "repository": "https://github.com/vuejs/vue-test-utils"
+          },
+          {
+            "desc": "Facebook 开发的零配置测试平台，让代码库更加稳定和健壮",
+            "home": "https://jest.docschina.org/",
+            "logo": "https://cdn.docschina.org/home/logo/jest.png",
+            "name": "Jest",
+            "repository": "https://github.com/facebook/jest"
+          },
+          {
+            "desc": "未来的测试运行器",
+            "home": "https://github.com/avajs/ava",
+            "logo": "https://cdn.docschina.org/home/logo/ava.png",
+            "name": "ava"
+          },
+          {
+            "desc": "Karma 的主要目标是，让测试驱动开发(TDD)变得简单、快速和有趣。",
+            "home": "https://karma-runner.github.io/2.0/index.html",
+            "logo": "https://cdn.docschina.org/home/logo/karma.png",
+            "name": "Karma",
+            "repository": "https://github.com/karma-runner/karma"
+          },
+          {
+            "desc": "Mocha 是运行在 Node.js 和浏览器上的功能丰富的 JavaScript 测试框架，使异步测试变得简单而有趣。Mocha 串行运行测试，提供灵活精准的报告，同时将未捕获的异常映射到正确的测试用例。",
+            "home": "https://mochajs.org/",
+            "logo": "https://cdn.docschina.org/home/logo/mocha.svg",
+            "name": "Mocha",
+            "repository": "https://github.com/mochajs/mocha"
+          },
+          {
+            "desc": "Jasmine 是一个用于测试 JavaScript 代码的行为驱动开发(BDD)框架",
+            "home": "https://jasmine.github.io/",
+            "logo": "https://cdn.docschina.org/home/logo/jasmine.png",
+            "name": "Jasmine",
+            "repository": "https://github.com/jasmine/jasmine"
+          },
+          {
+            "desc": "Puppeteer 可以通过 DevTools 协议控制 headless Chrome 或 Chromium",
+            "home": "https://pptr.dev/",
+            "logo": "https://cdn.docschina.org/home/logo/puppeteer.png",
+            "name": "Puppeteer",
+            "repository": "https://github.com/GoogleChrome/puppeteer"
+          },
+          {
+            "desc": "用于对 JavaScript 隔离测试 spy, stub 和 mock。适用于任何单元测试框架",
+            "home": "http://sinonjs.org/",
+            "logo": "https://cdn.docschina.org/home/logo/sinon.png",
+            "name": "Sinon.JS",
+            "repository": "https://github.com/sinonjs/sinon"
+          },
+          {
+            "desc": "Chai 是一个用于 Node.js 和浏览器的 BDD/TDD 断言库，可以与任何 JavaScript 测试框架便捷配对",
+            "home": "http://chaijs.com/",
+            "logo": "https://cdn.docschina.org/home/logo/chai.png",
+            "name": "Chai",
+            "repository": "https://github.com/chaijs/chai"
+          },
+          {
+            "desc": "expect 帮助你编写更好的断言",
+            "home": "https://github.com/mjackson/expect",
+            "logo": "",
+            "name": "expect"
+          },
+          {
+            "desc": "一个富于表现力、可读性强、与框架无关，用于 Node.js 的 BDD 风格断言库",
+            "home": "https://shouldjs.github.io/",
+            "logo": "",
+            "name": "Should.js",
+            "repository": "https://github.com/shouldjs/should.js"
+          },
+          {
+            "desc": "生成随机数据，拦截 Ajax 请求",
+            "home": "http://mockjs.com/",
+            "logo": "",
+            "name": "Mock.js",
+            "repository": "https://github.com/nuysoft/Mock"
+          }
+        ],
+        "name": "test"
+      },
+      {
+        "_id": "c497f5885f9e324e0118d5770943917c",
+        "label": "编译构建",
+        "list": [
+          {
+            "contribute": "https://github.com/docschina/webpack.js.org",
+            "desc": "用于现代 JavaScript 应用程序的静态模块打包工具",
+            "home": "https://webpack.docschina.org/",
+            "is_docschina": true,
+            "logo": "https://cdn.docschina.org/home/logo/webpack-offical.svg",
+            "name": "webpack"
+          },
+          {
+            "contribute": "https://github.com/docschina/parceljs.io",
+            "desc": "零配置打包工具",
+            "home": "https://parceljs.docschina.org/",
+            "homeBackup": "https://www.parceljs.io/",
+            "is_docschina": true,
+            "logo": "https://cdn.docschina.org/home/logo/parcel.png",
+            "name": "Parcel"
+          },
+          {
+            "contribute": "https://github.com/docschina/rollupjs.org",
+            "desc": "新一代 JavaScript 模块打包器",
+            "home": "https://rollup.docschina.org/",
+            "is_docschina": true,
+            "logo": "https://cdn.docschina.org/home/logo/rollup.svg",
+            "name": "Rollup"
+          },
+          {
+            "contribute": "https://github.com/docschina/babeljs.io",
+            "desc": "一个编译工具，让你可以项目中直接使用下一代 JavaScript",
+            "home": "https://babel.docschina.org/",
+            "homeBackup": "https://babeljs.cn/",
+            "imgStyle": {
+              "objectFit": "contain"
+            },
+            "is_docschina": true,
+            "logo": "https://cdn.docschina.org/home/logo/babel.png",
+            "name": "Babel"
+          },
+          {
+            "desc": "JavaScript 超集",
+            "home": "https://zhongsp.gitbooks.io/typescript-handbook/",
+            "logo": "https://cdn.docschina.org/home/logo/typescript.svg",
+            "name": "TypeScript",
+            "repository": "https://github.com/zhongsp/TypeScript"
+          },
+          {
+            "desc": "基于流的自动化构建工具",
+            "home": "http://www.gulpjs.com.cn/",
+            "logo": "https://cdn.docschina.org/home/logo/gulp.svg",
+            "name": "Gulp"
+          },
+          {
+            "desc": "JavaScript 世界的构建工具",
+            "home": "https://grunt.docschina.org/",
+            "logo": "https://cdn.docschina.org/home/logo/grunt.svg",
+            "name": "Grunt"
+          },
+          {
+            "desc": "用于管理有多个包的 JavaScript 项目的工具",
+            "home": "https://lerna.js.org/",
+            "logo": "https://cdn.docschina.org/home/logo/lerna.svg",
+            "name": "Lerna",
+            "repository": "https://github.com/lerna/lerna"
+          }
+        ],
+        "name": "build"
+      },
+      {
+        "_id": "c497f5885f9e324e0118d5781a2d68bb",
+        "label": "模板引擎",
+        "list": [
+          {
+            "desc": "JavaScript 模板引擎",
+            "home": "http://ejs.co/",
+            "logo": "",
+            "name": "EJS"
+          },
+          {
+            "desc": "JavaScript 模板引擎",
+            "home": "https://pugjs.org/",
+            "logo": "",
+            "name": "Pug"
+          },
+          {
+            "desc": "JavaScript 模板引擎",
+            "home": "https://handlebarsjs.com/",
+            "logo": "",
+            "name": "Handlebars.js"
+          }
+        ],
+        "name": "template"
+      },
+      {
+        "_id": "c497f5885f9e324e0118d5793d4545a7",
+        "label": "可视化工具",
+        "list": [
+          {
+            "contribute": "https://github.com/docschina/threejs.org",
+            "desc": "JavaScript 3d 库",
+            "home": "https://threejs.docschina.org/",
+            "is_docschina": true,
+            "logo": "https://cdn.docschina.org/home/logo/threejs.png",
+            "name": "Threejs",
+            "repository": "https://github.com/mrdoob/three.js"
+          },
+          {
+            "desc": "使用 JavaScript 实现的开源可视化库",
+            "home": "http://echarts.baidu.com/",
+            "logo": "https://cdn.docschina.org/home/logo/echarts.png",
+            "name": "ECharts",
+            "repository": "https://github.com/ecomfe/echarts",
+            "team": "百度"
+          },
+          {
+            "desc": "跨平台的轻量级 2D 渲染对象模型",
+            "home": "http://spritejs.org/",
+            "logo": "https://cdn.docschina.org/home/logo/spritejs.png",
+            "name": "SpriteJS",
+            "repository": "https://github.com/spritejs/spritejs",
+            "team": "360"
+          },
+          {
+            "desc": "基于全新一代数据可视化解决方案 AntV",
+            "home": "https://antv.alipay.com/",
+            "logo": "https://cdn.docschina.org/home/logo/antv.svg",
+            "name": "AntV 可视化解决方案",
+            "repository": "https://github.com/ecomfe/echarts",
+            "team": "阿里巴巴"
+          },
+          {
+            "desc": "一套基于可视化编码的图形语法，以数据驱动，具有高度的易用性和扩展性",
+            "home": "https://antv.alipay.com/",
+            "logo": "https://cdn.docschina.org/home/logo/antv.svg",
+            "name": "G2 可视化图形语法",
+            "repository": "https://github.com/antvis/g2/",
+            "team": "阿里巴巴"
+          },
+          {
+            "desc": "G6 是解决流程图和关系分析的图表库",
+            "home": "https://antv.alipay.com/zh-cn/g6/1.x/index.html",
+            "logo": "https://cdn.docschina.org/home/logo/antv.svg",
+            "name": "G6 关系图类库",
+            "repository": "https://github.com/antvis/g6/",
+            "team": "阿里巴巴"
+          },
+          {
+            "desc": "面向移动端的一套基于可视化图形语法的图表库，具有精简、高性能、易扩展的特性",
+            "home": "https://antv.alipay.com/zh-cn/f2/3.x/index.html",
+            "logo": "https://cdn.docschina.org/home/logo/antv.svg",
+            "name": "F2 移动端图表库",
+            "repository": "https://github.com/antvis/f2/",
+            "team": "阿里巴巴"
+          },
+          {
+            "desc": "一个遵循 Web 标准，用于可视化数据的 JavaScript 库",
+            "home": "https://d3js.org.cn/",
+            "logo": "https://cdn.docschina.org/home/logo/d3.svg",
+            "name": "D3.js",
+            "repository": "https://github.com/xswei/d3js_doc"
+          },
+          {
+            "desc": "基于 Vue 和 ECharts 封装的图表组件",
+            "home": "https://v-charts.js.org/",
+            "logo": "https://cdn.docschina.org/home/logo/vue.svg",
+            "name": "v-charts",
+            "repository": "https://github.com/elemefe/v-charts",
+            "team": "饿了么"
+          }
+        ],
+        "name": "visualization"
+      },
+      {
+        "_id": "c497f5885f9e324e0118d57a3885d353",
+        "label": "utils 工具",
+        "list": [
+          {
+            "desc": "高效精简强大的工具库",
+            "home": "http://www.jquery123.com/",
+            "logo": "https://cdn.docschina.org/home/logo/jquery.svg",
+            "name": "jQuery"
+          },
+          {
+            "desc": "轻量级的工具库",
+            "home": "http://zeptojs.com/",
+            "logo": "https://cdn.docschina.org/home/logo/zepto.png",
+            "name": "Zepto"
+          },
+          {
+            "desc": "一个现代的 JavaScript 工具库",
+            "home": "http://lodash.think2011.net/",
+            "logo": "https://cdn.docschina.org/home/logo/lodash.svg",
+            "name": "Lodash"
+          },
+          {
+            "contribute": "https://github.com/LinFeng1997/markdown-it-docs",
+            "desc": "Markdown 解析器。完全支持 CommonMark 规范，并且进行语法扩展、提供可编写插件和快速编译",
+            "home": "https://markdown-it.docschina.org/",
+            "is_docschina": true,
+            "logo": "",
+            "name": "markdown-it",
+            "repository": "https://github.com/markdown-it/markdown-it"
+          },
+          {
+            "contribute": "https://github.com/xmoyking/localForage-cn",
+            "desc": "通过简单类似 localStorage API 的异步数据存储来改进你的 Web 应用程序的离线体验",
+            "home": "https://localforage.docschina.org/",
+            "is_docschina": true,
+            "logo": "https://cdn.docschina.org/home/logo/lf.png",
+            "name": "localForage"
+          },
+          {
+            "desc": "jQuery API 速查表",
+            "home": "http://hemin.cn/jq/",
+            "logo": "https://cdn.docschina.org/home/logo/jquery.svg",
+            "name": "jQuery API"
+          }
+        ],
+        "name": "utils"
+      },
+      {
+        "_id": "c497f5885f9e324e0118d57b2d7881b8",
+        "label": "其他工具",
+        "list": [
+          {
+            "desc": "带解析器、能节省流量的 Web 视频播放器",
+            "home": "https://h5player.bytedance.com/",
+            "logo": "https://cdn.docschina.org/home/logo/xgplayer.png",
+            "name": "XGPlayer",
+            "repository": "https://github.com/bytedance/xgplayer",
+            "team": "今日头条"
+          },
+          {
+            "desc": "奇舞团研制的 h5 播放器，它支持 mp4、m3u8、flv 等多种格式",
+            "home": "http://chimee.org/",
+            "logo": "https://cdn.docschina.org/home/logo/75team.svg",
+            "name": "Chimee",
+            "repository": "https://github.com/Chimeejs/chimee",
+            "team": "360"
+          },
+          {
+            "desc": "HTML5 视频播放器以纯 JavaScript 编写，不含 Flash",
+            "home": "https://github.com/Bilibili/flv.js",
+            "logo": "",
+            "name": "flv.js",
+            "team": "哔哩哔哩"
+          }
+        ],
+        "name": "tool"
+      },
+      {
+        "_id": "c497f5885f9e324e0118d57c78a8184a",
+        "label": "技术周刊",
+        "list": [
+          {
+            "desc": "将 JavaScript Weekly 摘要部分翻译出来，帮助大家了解国外前沿技术信息",
+            "home": "http://weekly.docschina.org/",
+            "is_docschina": true,
+            "logo": "https://cdn.docschina.org/home/logo/docschina-logo.svg",
+            "name": "印记中文周刊"
+          },
+          {
+            "desc": "JavaScript 新闻和文章",
+            "home": "https://javascriptweekly.com/",
+            "logo": "https://cdn.docschina.org/home/logo/javascript.svg",
+            "name": "JavaScript Weekly"
+          },
+          {
+            "desc": "Node.js 新闻和文章",
+            "home": "https://nodeweekly.com/",
+            "logo": "",
+            "name": "Node Weekly"
+          },
+          {
+            "desc": "CSS 文章、教程、实验、工具等摘要",
+            "home": "https://css-weekly.com/",
+            "logo": "https://css-weekly.com/wp-content/themes/cssweekly/img/cssweekly-logo.png",
+            "name": "CSS Weekly"
+          },
+          {
+            "desc": "Vue 官方提供的最新实时动态资讯",
+            "home": "https://news.vuejs.org/",
+            "logo": "https://cdn.docschina.org/home/logo/vue.svg",
+            "name": "Vue news",
+            "repository": "https://github.com/vuejs/news.vuejs.org"
+          }
+        ],
+        "name": "weekly"
+      }
+    ]
+  }
+}
