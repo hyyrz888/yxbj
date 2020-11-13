@@ -16,7 +16,7 @@
             class="input is-info"
             type="mobile"
             placeholder="输入ip地址"
-            v-model="mobile"
+            v-model="ip"
           />
         </div>
       </div>
@@ -26,26 +26,6 @@
       </div>
       <div class="block">
         <div class="block">{{ msg }}</div>
-        <table
-          class="table is-bordered is-striped is-narrow is-hoverable"
-          v-if="showTable"
-        >
-          <thead>
-            <tr>
-              <th>手机号</th>
-              <th>省</th>
-              <th>市</th>
-              <th>运营商</th>
-              <th>卡类型</th>
-              <th>区号</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <th v-for="(value, key) in showinfo" :key="key">{{ value }}</th>
-            </tr>
-          </tbody>
-        </table>
       </div>
     </section>
   </section>
@@ -53,23 +33,26 @@
 
 <script>
 export default {
+  asyncData(context) {
+    //获取上下文对象
+    console.log(context);
+  },
   data() {
     return {
-      mobile: "",
-      showinfo: {},
-      showTable: false,
+      ip: "",
       msg: "",
     };
   },
   methods: {
     async handleClick() {
       let res = await this.$axios({
-        url: "/shouji/query",
+        url: "/ip/location",
         params: {
           appkey: "ba1856a14915bd7b",
-          shouji: this.mobile,
+          ip: this.ip,
         },
       });
+      //103  APPKEY无请求此数据权限
       console.log(res);
       let findata = res.data;
       if (findata.status == 201) {
@@ -78,9 +61,14 @@ export default {
           message: findata.msg,
           type: "is-danger",
         });
+      } else if (findata.status == 103) {
+        this.$buefy.toast.open({
+          duration: 1000,
+          message: findata.msg,
+          type: "is-danger",
+        });
       } else {
-        this.showTable = true;
-        this.showinfo = findata.result;
+        this.msg = findata.result;
       }
     },
   },

@@ -39,10 +39,8 @@
       position="is-centered"
       class="mt-6"
     >
-      <b-tab-item label="3大框架相关" disabled></b-tab-item>
       <b-tab-item label="VuePC">
         <template #header>
-          <b-icon icon="vuejs"></b-icon>
           <span>
             Vue(PC) <b-tag rounded> {{ VuePc.length }} </b-tag>
           </span>
@@ -80,7 +78,6 @@
       </b-tab-item>
       <b-tab-item label="Vue(Mobile)">
         <template #header>
-          <b-icon icon="vuejs"></b-icon>
           <span>
             Vue(Mobile) <b-tag rounded> {{ VueMobile.length }} </b-tag>
           </span>
@@ -117,7 +114,6 @@
       </b-tab-item>
       <b-tab-item label="React(PC)">
         <template #header>
-          <b-icon icon="react"></b-icon>
           <span>
             React(PC) <b-tag rounded> {{ ReactPc.length }}</b-tag>
           </span>
@@ -155,7 +151,6 @@
       </b-tab-item>
       <b-tab-item label="React(Mobile)">
         <template #header>
-          <b-icon icon="react"></b-icon>
           <span>
             React(Mobile) <b-tag rounded> {{ ReactMobile.length }}</b-tag>
           </span>
@@ -193,7 +188,6 @@
       </b-tab-item>
       <b-tab-item label="Angular">
         <template #header>
-          <b-icon icon="angular"></b-icon>
           <span>
             Angular <b-tag rounded> {{ Angular.length }}</b-tag>
           </span>
@@ -231,7 +225,6 @@
       </b-tab-item>
       <b-tab-item label="Other">
         <template #header>
-          <b-icon icon="information"></b-icon>
           <span>
             Other <b-tag rounded> {{ Other.length }}</b-tag>
           </span>
@@ -265,13 +258,6 @@
               <a :href="item.gitee" target="_blank">
                 <b-icon icon="gitee" type="is-dark"
               /></a>
-              <b-icon
-                pack="fas"
-                icon="tachometer-alt"
-                size="is-large"
-                type="is-primary"
-              >
-              </b-icon>
             </div>
           </card>
         </div>

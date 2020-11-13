@@ -9,6 +9,15 @@
       <b-tab-item label="PHP+MYSQL" icon="language-php"></b-tab-item>
       <b-tab-item label="Server" icon="server-network"></b-tab-item>
     </b-tabs>
+    <nuxt-link to="/article/2">新闻</nuxt-link>
+    <nuxt-link
+      :to="{
+        name: 'article-id',
+        params: { id: 3 },
+        query: { title: '浙江有一蔡明中奖了' },
+      }"
+      >恭喜今日一彩民中奖了</nuxt-link
+    >
   </section>
 </template>
 

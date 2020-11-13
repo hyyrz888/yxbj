@@ -21,7 +21,7 @@
               >
                 <figure class="image is-48x48 mb-3">
                   <img
-                    :src="require('@/assets/' + item.logo)"
+                    :src="require('~/assets/' + item.logo)"
                     width="100"
                     height="100"
                   />

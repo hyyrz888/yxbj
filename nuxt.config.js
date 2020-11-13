@@ -16,15 +16,28 @@ export default {
   // Global CSS 
   css: [
     //less
-    '@/assets/css/reset.less',
+    '@assets/css/reset.less',
+    '@assets/css/pagetransition.less',
     '@fortawesome/fontawesome-svg-core/styles.css'
   ],
 
   // Plugins to run before rendering page 
   plugins: [
     '~/plugins/fontawsome.js',
+    '~/plugins/request'
   ],
 
+  //配置路由
+  router: {
+    //扩展路由
+    extendRoutes(routes, resolve) {
+      routes.push({
+        name: 'root', //别名
+        path: '/index', //路径
+        component: resolve(__dirname, 'pages/index') //组件
+      })
+    }
+  },
   // Auto import components 
   components: true,
 

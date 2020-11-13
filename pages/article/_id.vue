@@ -4,10 +4,11 @@
 
 <script>
 export default {
-  validate({ params }) {
+  name: "article-detail",
+  validate({ params, query }) {
     console.log(params);
     // 必须是number类型
-    return /^\d+$/.test(params.id);
+    return /^\d+$/.test(params.id) && typeof params.id === "number";
   },
 };
 </script>
