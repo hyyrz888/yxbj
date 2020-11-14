@@ -1,41 +1,55 @@
 <template>
-  <div class="is-primary">
+  <div id="evernot">
     <app-header></app-header>
-
-    <div class="container is-fluid">
-      <section class="main-content columns">
-        <aside class="column is-2 section">
-          <div class="block pt-4 pb-4 pl-3 mb-0 bg-primary">
-            <strong class="text-white">网站导航</strong>
+    <section class="main-content section">
+      <div class="container">
+        <div class="columns">
+          <!--侧边栏-->
+          <aside
+            class="column is-full-mobile is-one-thirds-tablet is-one-fifth-desktop is-one-fifth-widescreen"
+          >
+            <!-- <div class="block pt-3 pb-3 pl-3 mb-0 bg-primary">
+              <strong class="text-white">网站导航</strong>
+            </div> -->
+            <b-menu class="is-custom-mobile">
+              <b-menu-list>
+                <b-menu-item
+                  tag="nuxt-link"
+                  :label="item.title"
+                  v-for="(item, key) of items"
+                  :key="key"
+                  :to="item.to.name"
+                  active-class="is-active"
+                ></b-menu-item>
+              </b-menu-list>
+            </b-menu>
+          </aside>
+          <!-- <aside
+            class="menu column is-full-mobile is-one-thirds-tablet is-one-fifth-desktop is-one-fifth-widescreen"
+          >
+            <p class="menu-label">General</p>
+            <ul class="menu-list">
+              <li v-for="(item, key) of items" :key="key">
+                <a>{{ item.title }}</a>
+              </li>
+            </ul>
+          </aside> -->
+          <!--内容-->
+          <div
+            class="column is-full-mobile is-two-thirds-tablet is-three-fifth-desktop is-three-fifths-widescreen"
+          >
+            <nuxt />
           </div>
-          <b-menu class="is-custom-mobile">
-            <b-menu-list>
-              <b-menu-item
-                tag="nuxt-link"
-                :label="item.title"
-                v-for="(item, key) of items"
-                :key="key"
-                :active="currentIndex === key"
-                :to="item.to.name"
-              ></b-menu-item>
-            </b-menu-list>
-          </b-menu>
 
-          <!-- <p class="menu-label is-hidden-touch">网站导航</p>
-          <ul class="menu-list">
-            <li></li>
-          </ul> -->
-        </aside>
-
-        <div class="container column is-8">
-          <nuxt />
+          <!--右侧-->
+          <div
+            class="column is-one-fifth is-hidden-touch is-one-fifth-desktop is-one-fifth-widescreen"
+          >
+            <app-sidebar-right></app-sidebar-right>
+          </div>
         </div>
-
-        <div class="column is-2 section">
-          <app-sidebar-righ></app-sidebar-righ>
-        </div>
-      </section>
-    </div>
+      </div>
+    </section>
     <app-footer></app-footer>
   </div>
 </template>
@@ -53,7 +67,6 @@ export default {
   },
   data() {
     return {
-      currentIndex: 0,
       items: [
         {
           title: "前端框架",
@@ -115,6 +128,10 @@ export default {
           title: "其他工具",
           to: { name: "other" },
         },
+        {
+          title: "数据库",
+          to: { name: "db" },
+        },
       ],
     };
   },
@@ -135,23 +152,14 @@ export default {
 </style>
 <style lang="less">
 .menu {
-  background-color: #f5f5f5;
   .menu-list a {
     font-size: 14px;
     padding: 0.8rem;
+    border-bottom: 1px solid #fff;
     &.is-active {
       background-color: #f5f5f5;
+      border-bottom: 1px solid #eee;
       color: #444;
-    }
-  }
-}
-
-.footer {
-  background-color: #444;
-  p {
-    color: #fff;
-    a {
-      color: #fff;
     }
   }
 }

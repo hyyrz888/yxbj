@@ -1,5 +1,5 @@
 <template>
-  <section class="section">
+  <section class="template">
     <div class="columns">
       <card :title="item.name" v-for="(item, key) of items" :key="key">
         <div slot="content">

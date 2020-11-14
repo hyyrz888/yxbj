@@ -1,5 +1,5 @@
 <template>
-  <section class="section">
+  <section class="cardlist">
     <div class="columns is-multiline">
       <card
         :title="item.name"
@@ -11,7 +11,7 @@
           <img
             :src="item.logo"
             :alt="item.name"
-            width="39"
+            width="48"
             class="mb-2"
             v-if="item.logo.includes('//')"
           />
@@ -33,10 +33,9 @@
       </card>
     </div>
     <b-tabs
-      type="is-toggle"
+      type="is-boxed"
       v-model="activeTab"
       :multiline="multiline"
-      position="is-centered"
       class="mt-6"
     >
       <b-tab-item label="VuePC">
@@ -57,7 +56,7 @@
               <img
                 :src="item.logo"
                 :alt="item.name"
-                width="39"
+                width="48"
                 class="mb-2"
                 v-if="item.logo.includes('//')"
               />
@@ -93,7 +92,7 @@
               <img
                 :src="item.logo"
                 :alt="item.name"
-                width="39"
+                width="48"
                 class="mb-2"
                 v-if="item.logo.includes('//')"
               />
@@ -130,7 +129,7 @@
               <img
                 :src="item.logo"
                 :alt="item.name"
-                width="39"
+                width="48"
                 class="mb-2"
                 v-if="item.logo.includes('//')"
               />
@@ -167,7 +166,7 @@
               <img
                 :src="item.logo"
                 :alt="item.name"
-                width="39"
+                width="48"
                 class="mb-2"
                 v-if="item.logo.includes('//')"
               />
@@ -204,7 +203,7 @@
               <img
                 :src="item.logo"
                 :alt="item.name"
-                width="39"
+                width="48"
                 class="mb-2"
                 v-if="item.logo.includes('//')"
               />
@@ -240,7 +239,7 @@
               <img
                 :src="item.logo"
                 :alt="item.name"
-                width="39"
+                width="48"
                 class="mb-2"
                 v-if="item.logo.includes('//')"
               />
@@ -254,9 +253,6 @@
               /></a>
               <a :href="item.contribute" target="_blank">
                 <b-icon icon="github" type="is-dark"
-              /></a>
-              <a :href="item.gitee" target="_blank">
-                <b-icon icon="gitee" type="is-dark"
               /></a>
             </div>
           </card>
@@ -277,8 +273,8 @@ export default {
   },
   data() {
     return {
-      activeTab: 1,
-      multiline: true,
+      activeTab: 0,
+      multiline: false,
       fe: [
         {
           contribute: "https://github.com/vuejs/cn.vuejs.org/",
@@ -559,7 +555,7 @@ export default {
             "Nerv 是一款基于虚拟 DOM 技术的 JavaScript（TypeScript）库，它提供了与 React 16 一致的使用方式与 API，并且拥有更高的性能表现、更小的包大小以及更好的浏览器兼容性",
           home: "https://nerv.aotu.io/",
           logo:
-            "https://camo.githubusercontent.com/3e1b76e514b895760055987f164ce6c95935a3aa/687474703a2f2f73746f726167652e333630627579696d672e636f6d2f6d74642f686f6d652f6c6f676f2d3278313531333833373932363730372e706e67",
+            "https://camo.githubusercontent.com/3e1b76e514b895760055987f164ce6c95935a3aa/687474703a2f2f73746f726167652e333630627579696d672e636f6d2f6d74642f686f6d652f6c6f676f2d3278313531333833374832363730372e706e67",
           name: "Nerv",
           repository: "https://github.com/NervJS/nerv",
           team: "京东",
@@ -661,32 +657,10 @@ export default {
 </script>
 
 <style lang="less" scoped>
-.card-content {
-  p {
-    height: 40px;
-    overflow: hidden;
-  }
-  span {
-    margin-bottom: 10px;
-  }
-  img {
-    height: 39px;
-  }
-  .nologo {
-    text-align: center;
-    width: 39px;
-    height: 39px;
-    line-height: 39px;
-    background-color: #c3c4ce;
-    border-radius: 19.5px;
-    font-size: 22px;
-    font-weight: 700;
-    color: #fff;
-    margin: 0 auto 10px;
-  }
-}
 </style>
 <style lang="less">
+.table {
+}
 .b-tabs .tabs {
   margin-bottom: 2rem;
 }
