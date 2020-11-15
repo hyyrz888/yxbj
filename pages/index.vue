@@ -26,9 +26,6 @@
           <a :href="item.contribute" target="_blank">
             <b-icon icon="github" type="is-dark"
           /></a>
-          <a :href="item.gitee" target="_blank">
-            <b-icon icon="gitee" type="is-dark"
-          /></a>
         </div>
       </card>
     </div>
@@ -267,7 +264,17 @@ import Card from "~/components/Card";
 
 export default {
   name: "index",
-
+  //page级别的middleware
+  middleware(context) {
+    console.log("page middleware");
+  },
+  async asyncData({ $axios }) {
+    let res = await $axios({ url: "/data/test.json" });
+    console.log("同源数据", res);
+    return {
+      title: res.test,
+    };
+  },
   components: {
     Card,
   },

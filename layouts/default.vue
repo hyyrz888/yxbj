@@ -12,6 +12,7 @@
               <strong class="text-white">网站导航</strong>
             </div> -->
             <b-menu class="is-custom-mobile">
+              <p>{{ nowTime }}</p>
               <b-menu-list>
                 <b-menu-item
                   tag="nuxt-link"
@@ -19,7 +20,6 @@
                   v-for="(item, key) of items"
                   :key="key"
                   :to="item.to.name"
-                  active-class="is-active"
                 ></b-menu-item>
               </b-menu-list>
             </b-menu>
@@ -58,15 +58,23 @@
 import AppHeader from "./app-header";
 import AppFooter from "./app-footer";
 import AppSidebarRight from "./app-sidebar-right";
+
 export default {
   name: "Default",
+  //页面级别的中间件定义
+  middleware({ app }) {
+    console.log("layouts middleware");
+  },
   components: {
     AppHeader,
     AppFooter,
     AppSidebarRight,
   },
+  asyncData() {},
   data() {
     return {
+      currentIndex: 0,
+      nowTime: "",
       items: [
         {
           title: "前端框架",
@@ -135,11 +143,55 @@ export default {
       ],
     };
   },
+  computed: {
+    aaa() {
+      return "你好";
+    },
+  },
+  mounted() {
+    //当前时间
+    // this.nowTime = $nuxt.context.app.data.systemNowDate;
+    var _this = this;
+    this.timer = setInterval(() => {
+      _this.nowTime = this.dateFormat(new Date()); // 修改日期数据
+    }, 1000);
+  },
   methods: {
+    setZero(a) {
+      //设置小于10的数字在加0
+      return a < 10 ? "0" + a : a;
+    },
+    dateFormat(date) {
+      // let date = new Date();
+      //当前时间格式化处理
+      var str = "";
+      var weekDay = [
+        "星期天",
+        "星期一",
+        "星期二",
+        "星期三",
+        "星期四",
+        "星期五",
+        "星期六",
+      ];
+      str += this.setZero(date.getFullYear()) + "年"; //获取年份
+      str += this.setZero(date.getMonth() + 1) + "月"; //获取月份
+      str += this.setZero(date.getDate()) + "日"; //获取日
+      str += " " + weekDay[date.getDay()]; //获取星期
+      str += " " + this.setZero(date.getHours()) + ":"; //获取时
+      str += " " + this.setZero(date.getMinutes()) + ":"; //获取分
+      str += this.setZero(date.getSeconds()); //获取秒
+      return str;
+    },
     handleClick(key) {
       console.log(key);
       this.currentIndex = key;
     },
+  },
+  destroyed() {
+    if (this.timer) {
+      clearInterval(this.timer); // 在Vue实例销毁前，清除当前日期定时器
+    }
   },
 };
 </script>
@@ -151,16 +203,19 @@ export default {
 }
 </style>
 <style lang="less">
+.nuxt-link-exact-active {
+  background-color: #167df0 !important;
+  border-bottom: 1px solid #eee;
+  span {
+    color: #fff;
+  }
+}
 .menu {
   .menu-list a {
     font-size: 14px;
     padding: 0.8rem;
     border-bottom: 1px solid #fff;
-    &.is-active {
-      background-color: #f5f5f5;
-      border-bottom: 1px solid #eee;
-      color: #444;
-    }
+    background-color: #f5f5f5;
   }
 }
 </style>

@@ -16,7 +16,7 @@
           </aside> -->
           <!--内容-->
           <div
-            class="column is-full-mobile is-two-thirds-tablet is-three-fifth-desktop is-three-fifths-widescreen"
+            class="column is-full-mobile is-two-thirds-tablet is-four-fifth-desktop is-four-fifths-widescreen"
           >
             <nuxt />
           </div>

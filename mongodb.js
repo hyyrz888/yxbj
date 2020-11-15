@@ -386,4 +386,156 @@ db.card.insertMany([
     is_evernote: true
   },
   //vuepc
+  {
+    belong: "vue-pc",
+    logo: 'https://cdn.docschina.org/home/logo/element.svg',
+    name: 'Element UI',
+    desc: '基于 Vue 的组件库',
+    team: '饿了么',
+    home: 'http://element-cn.eleme.io/',
+    repository: 'https://github.com/ElemeFE/element',
+    is_evernote: true
+  },
+  {
+    belong: "vue-pc",
+    is_evernote: true,
+    desc: "基于 Vue 的组件库",
+    home: "https://www.iviewui.com/",
+    logo: "https://cdn.docschina.org/home/logo/iview.png",
+    name: "View UI",
+    repository: "https://github.com/iview/iview",
+    team: "TalkingData"
+  },
+  {
+    belong: "vue-pc",
+    logo: 'https://pro.antdv.com/logo.png',
+    name: 'Ant Design Pro',
+    desc: '开箱即用的中台前端/设计解决方案',
+    team: '阿里巴巴',
+    home: 'https://pro.antdv.com/',
+    repository: 'https://github.com/vueComponent/ant-design-vue-pro',
+    is_evernote: true
+  },
+  {
+    belong: "vue-pc",
+    logo: 'https://cdn.docschina.org/home/logo/vue.svg',
+    name: 'Vue UI Framework',
+    desc: 'Vue 官方 UI 组件',
+    team: '',
+    home: 'https://vuejs.github.io/ui/',
+    repository: 'https://github.com/vuejs/ui',
+    is_evernote: true
+  },
+  {
+    belong: "vue-pc",
+    team: '',
+    is_evernote: true,
+    desc: "基于 Vue 的 Material 组件库",
+    home: "https://vuetifyjs.com/zh-Hans/",
+    logo: "https://cdn.docschina.org/home/logo/vuetify.svg",
+    name: "Vuetify",
+    repository: "https://github.com/vuetifyjs/vuetify"
+  },
+  {
+    belong: "vue-pc",
+    team: '',
+    is_evernote: true,
+    desc: "基于 Vue 和 Material Design 的 UI 组件库",
+    home: "http://www.muse-ui.org/",
+    logo: "https://cdn.docschina.org/home/logo/muse.png",
+    name: "Muse-UI",
+    repository: "https://github.com/museui/muse-ui"
+  },
+  {
+    belong: "vue-pc",
+    team: '',
+    is_evernote: true,
+    desc: "一个基于 Vue 的高质量 UI 组件库",
+    home: "https://www.heyui.top/",
+    logo: "https://camo.githubusercontent.com/1424cb86c2634f96fe82db55f01f07c3c29e53a1/68747470733a2f2f7777772e68657975692e746f702f7374617469632f696d616765732f6c6f676f2e706e67",
+    name: "HeyUI",
+    repository: "https://github.com/heyui/heyui"
+  },
+  {
+    belong: "vue-pc",
+    is_evernote: true,
+    desc: "灵活易用的 JavaScript 组件框架，兼容到 IE6",
+    home: "https://baidu.github.io/san/",
+    logo: "https://cdn.docschina.org/home/logo/san.svg",
+    name: "San",
+    repository: "https://github.com/baidu/san",
+    team: "百度"
+  },
+  {
+    belong: "vue-pc",
+    is_evernote: true,
+    team: "百度",
+    desc: "Vue 官方提供的服务器端渲染(SSR)指南",
+    home: "https://ssr.vuejs.org/zh/",
+    logo: "",
+    name: "vue-ssr",
+    repository: "https://github.com/vuejs/vue-ssr-docs"
+  },
+  {
+    belong: "vue-pc",
+    is_evernote: true,
+    team: "",
+    desc: "vue-loader 可以将 Vue 单文件组件转换为 JavaScript 模块的 webpack loader",
+    home: "https://vue-loader.vuejs.org/zh/",
+    logo: "",
+    name: "vue-loader",
+    repository: "https://github.com/vuejs/vue-loader"
+  },
+  {
+    belong: "vue-pc",
+    is_evernote: true,
+    team: "",
+    repository: "https://github.com/vuejs/vuepress",
+    desc: "由 Vue 提供支持的静态站点生成器",
+    home: "https://vuepress.vuejs.org/zh/",
+    logo: "https://cdn.docschina.org/home/logo/vuepress.svg",
+    name: "VuePress"
+  },
+  {
+    belong: "vue-pc",
+    is_evernote: true,
+    team: "",
+    desc: "vue-router 是 Vue 官方提供的 router",
+    home: "https://router.vuejs.org/zh/",
+    logo: "",
+    name: "vue-router",
+    repository: "https://github.com/vuejs/vue-router"
+  },
+  {
+    belong: "vue-pc",
+    is_evernote: true,
+    team: "",
+    desc: "vue-rx 帮助用户在 Vue 应用程序中实现简单的 RxJS 绑定",
+    home: "https://github.com/vuejs/vue-rx/blob/master/README-CN.md",
+    logo: "",
+    name: "vue-rx",
+    repository: "https://github.com/vuejs/vue-rx"
+  },
+  {
+    belong: "vue-pc",
+    is_evernote: true,
+    team: "",
+    desc: "vue-cli 帮助用户快速开发 Vue 的脚手架(scaffold)",
+    home: "https://cli.vuejs.org/zh/",
+    logo: "https://cdn.docschina.org/home/logo/vue.svg",
+    name: "vue-cli",
+    repository: "https://github.com/vuejs/vue-cli"
+  },
+  {
+    belong: "vue-pc",
+    is_evernote: true,
+    team: "",
+    desc: "Vue.js 元框架，用于快速创建复杂、高性能的通用 Web 应用程序",
+    home: "https://zh.nuxtjs.org/",
+    logo: "https://zh.nuxtjs.org/logos/nuxt-icon.png",
+    name: "Nuxt.js",
+    repository: "https://github.com/nuxt/nuxt.js"
+  },
+
+  //vue-mobile
 ])

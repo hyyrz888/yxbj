@@ -24,11 +24,14 @@ export default {
   // Plugins to run before rendering page 
   plugins: [
     '~/plugins/fontawsome.js',
-    '~/plugins/request'
+    '~/plugins/request',
+    '~/plugins/formatDate',
+    '~/plugins/router'  //插件形式定义全局守卫
   ],
 
   //配置路由
   router: {
+    middleware: 'auth',
     //扩展路由
     extendRoutes(routes, resolve) {
       routes.push({
@@ -38,6 +41,9 @@ export default {
       })
     }
   },
+  //定义系统默认的loading效果,或者指定loading组件
+  // loading: { color: "#399", height: '3px' },
+  loading: '~/components/loading.vue',
   // Auto import components 
   components: true,
 
@@ -58,13 +64,14 @@ export default {
   },
   axios: {
     proxy: true,
-    prefix: '/api/',
+    //prefix: '/api/',
     credentials: true
     // See https://github.com/nuxt-community/axios-module#options
   },
   proxy: {
     '/api/': {
-      target: 'https://api.jisuapi.com',//这个网站是开源的可以请求到数据的
+      target: 'https://api.jisuapi.com',//代理转发的地址
+      //changeOrigin: true,
       pathRewrite: {
         '^/api/': '/',
         changeOrigin: true

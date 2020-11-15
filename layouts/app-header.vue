@@ -87,10 +87,10 @@
           <div class="navbar-end">
             <div class="navbar-item">
               <div class="buttons">
-                <a class="button is-info is-small">
+                <a class="button is-info is-small" href="/login">
                   <strong>登陆</strong>
                 </a>
-                <a class="button is-light is-small"> 注册 </a>
+                <a class="button is-light is-small" href="/reg"> 注册 </a>
               </div>
             </div>
           </div>
